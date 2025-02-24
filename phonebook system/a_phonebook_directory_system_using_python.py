@@ -1,4 +1,3 @@
-
 import os
 # Create the file if it doesn't exist
 if not os.path.exists("myphonebookfile.txt"):
@@ -71,7 +70,6 @@ def delect_contact():
       print(f"The contact {search_name} is delected succesfully")
     else:
       print(f"The contact with the name {search_name} was not found ")
-
 
 #main mainu function
 def main():
